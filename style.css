@@ -260,5 +260,20 @@ button {
     gap: 15px;
   }
 }
+/* SUBMIT BUTTON */
+#submitBtn {
+  transition: 0.3s;
+}
+
+#submitBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+#successMsg {
+  margin-top: 10px;
+  font-size: 14px;
+  transition: 0.3s;
+}
 
 
